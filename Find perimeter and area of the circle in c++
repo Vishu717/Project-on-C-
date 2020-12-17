@@ -1,0 +1,16 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+int main()
+{
+   
+    double rad,peri,area;
+    cout << "Enter the radius:";
+    cin >> rad;
+    peri=2*3.141*rad;
+    area=3.141*rad*rad;
+    cout<<area;
+    cout<<peri;
+    return 0;
+}
